@@ -3,7 +3,7 @@ import * as Sort from "../index";
 import { faker } from "@faker-js/faker";
 import { sort } from 'fast-sort';
 import fs from 'fs';
-import {readCSVFile, writeCSVFile} from "../index";
+import { readCSVFile, writeCSVFile } from "../index";
 
 interface RandomIntegersArray {
     MAX?: boolean;
